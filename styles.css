@@ -1,5 +1,3 @@
-
-
 body {
     display: block;
     margin: 8px;
@@ -8,6 +6,7 @@ body {
     background-position-x: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-width: 400px;
 }
 
 #fix-margins {
@@ -17,9 +16,21 @@ body {
 
 header {
     color: red;
+    background: linear-gradient(60deg, #f7e033, #ef4e7b, #a166ab, #5073b8, #07b39b, #6fba78);
     margin-top: 2%;
     margin-left: 22%;
     margin-right: 22%;
+    padding: 3px;
+    box-shadow: 0vw 0vh 3vh 3vh rgb(255, 255, 255);
+    border-radius: 5vh;
+}
+
+#inner-header {
+    margin-top: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 4.5vh;
+
 }
 
 main {
@@ -34,7 +45,14 @@ h1 {
 
 p {
     font-family: Verdana, sans-serif;
-  }
+    font-size: 1em;
+    background: white;
+    padding: 1.3vh;
+    padding-left: 1.5vh;
+    padding-top: 1.1vh;
+    border-radius: 3vh;
+    box-shadow: 0vw 0vh 1.8vh 1.8vh rgb(255, 255, 255);
+}
 
 footer {
     text-align: center;
@@ -43,7 +61,7 @@ footer {
     margin: 2%;
     margin-left: 15%;
     margin-right: 15%;
-    
+
 }
 
 .funParagraph {
@@ -52,17 +70,14 @@ footer {
 }
 
 
-.story-section{
+.story-section {
     background: white;
-    border-style:solid;
-    border-color:transparent;
     border-radius: 5vh;
+    box-shadow: 0vw 0vh 2vh 2vh rgb(255, 255, 255);
     /* border-color:hsl(0, 0%, 82%); */
     border-width: 0.25em;
     margin: 2%;
     padding: 5%
-
-
 }
 
 
@@ -72,17 +87,42 @@ footer {
 
 }
 
-#title-image{
+#title-image {
     border-radius: 5vh;
-    max-width:100%;
-    max-height:100%;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
-.story-image{
+.story-image {
     display: block;
-    max-width:100%;
-    max-height:100%;
-    height: 60vh;
+    max-width: 100%;
+    max-height: 100%;
+    height: 56vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3vh;
+    border-radius: 2vh;
+}
+
+
+
+#story-section1 {
+    background-image: linear-gradient(white, #f9f047);
+}
+
+#story-section2 {
+    background-image: linear-gradient(#f9f047, #0fd850);
+}
+
+#story-section3 {
+    background-image: linear-gradient(#0fd850, #d110db);
+}
+
+#story-section4 {
+    background-image: linear-gradient(#d110db, #6413dd);
+}
+
+#story-section5 {
+    background-image: linear-gradient(#6413dd, #ffffff);
 }
