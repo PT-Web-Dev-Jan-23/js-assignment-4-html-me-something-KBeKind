@@ -1,8 +1,8 @@
-@media screen and (min-width:450px) {
+/* @media screen and (min-width:450px) { */
 
     body {
         display: block;
-        /* margin: 8px; */
+        margin: 8px;
         background-image: url("./images/magic-countryside-background.jpg");
         background-position-y: center;
         background-position-x: center;
@@ -21,7 +21,6 @@
 
     header {
         color: red;
-
     }
 
     #inner-header1 {
@@ -32,12 +31,12 @@
         margin-right: auto;
 
     }
-}
+/* } */
 
 @media screen and (max-width:450px) {
     body {
         display: block;
-        margin: 8px;
+        margin: 0px;
         background-image: url("./images/magic-countryside-background.jpg");
         background-position-y: center;
         background-position-x: center;
@@ -60,7 +59,7 @@
     }
 
     #inner-header1 {
-        min-width: 386px;
+        min-width: 380px;
         width: 100%;
         margin-top: 2%;
         margin-bottom: 2%;
